@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+#tyre1
+{
+    position: relative;
+    height:120px;
+    width:120px;80
+    bottom:50px;
+    left:-150px;
+    top:-65px;
+    animation:tyre 0.1s linear infinite ;
+
+}
+
+#tyre2
+{
+    position:relative;
+     height:120px;
+    width:120px;
+    bottom:-200px;
+    left:-700px;
+    top:-63px;
+animation:tyre 0.1s  linear infinite;
+   
+}
+@keyframes tyre
+{
+    from{transform:rotateZ(0deg);}
+    to{transform: rotateZ(-360deg);}
+}
+#whole-animation
+{
+    animation: whole 10s linear infinite;
+    cursor:alias;
+}
+ @keyframes whole
+{
+    from{transform:translateX(-700px);}
+    to{transform: translateX(1500px);}
+}
+ #heart { position: relative; width: 100px; height: 90px;
+     left:600px;
+animation:blink 0.9s ease-in-out infinite;
+}
+@keyframes blink
+{
+    0%{transform:scale(1);}
+    50%{transform:scale(2);}
+    100%{transform:scale(1);}
+}
+#heart:before, #heart:after { position: absolute; content: ""; left: 50px; top: 0; width: 50px; height: 80px; background: red; border-radius: 50px 50px 0 0; transform: rotate(-45deg); transform-origin: 0 100%; } #heart:after { left: 0; transform: rotate(45deg); transform-origin: 100% 100%; }
+#triangle{
+    border-top: 1px #555 solid transparent;
+    border-bottom:1px #555 solid transparent;
+    border-left:1px #555 solid;
+}

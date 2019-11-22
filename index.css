@@ -1,0 +1,98 @@
+ol li{
+    
+    float: left;
+    padding: 10px 10px 10px 10px;
+    padding-right: 28px;
+    color:white;
+     display:block;
+    padding-top:15px;
+     height:50px;
+        
+    
+}
+ol{
+   
+
+    padding-left: 1050px;
+    background-color: black;
+    height: 50px;
+      opacity:0.7;
+}
+*{
+    margin:0px;
+    padding:0px;
+
+}
+ol li a:hover
+    {
+        color:#79ff4d;
+
+        
+}
+ol li a
+{
+    text-decoration: none;
+    color:white; 
+    opacity:1.0;
+}
+body{
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1370px 800px;
+    height:auto;
+  
+}
+.frame
+{
+    position: absolute;
+    background-color: #b3d9ff;
+    height:500px;
+    width:400px;
+    left:450px;
+    bottom:30px;
+    border-radius: 40px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+    border:none;
+
+
+    
+   
+}
+div p
+{
+    color:black;
+    text-align: center;
+}
+
+#login
+{
+    transform:translate(0px,150px);
+}
+#signup
+{
+    transform:translate(30px);
+    font-family: monospace;
+    color:black;
+}
+#logi
+{
+    transform:translate(240px);
+    font-family: monospace;
+    color:black;
+   
+}
+#login:hover{
+   
+}
+
+@media only screen and (max-width: 600px) {
+    ol{
+        padding-left:30px;
+        width:500px;
+    }
+    
+
+}
+
